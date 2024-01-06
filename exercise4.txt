@@ -1,0 +1,26 @@
+﻿I. Phương pháp phát triển phần mềm Waterfall (thác nước) thường được áp dụng trong các dự án có yêu cầu ổn định và không thay đổi nhanh chóng trong quá trình phát triển. Dưới đây là một số đặc điểm và dự án phù hợp với phương pháp Waterfall:
+1. Yêu cầu ổn định:
+   - Ví dụ: Xây dựng một hệ thống quản lý tài liệu nội bộ cho một doanh nghiệp, trong đó yêu cầu chính đã được định rõ từ đầu và không thay đổi đột ngột.
+2. Dự án lớn và phức tạp:
+   - Ví dụ: Xây dựng một hệ thống ERP (Enterprise Resource Planning) cho một doanh nghiệp lớn với nhiều bộ phận và yêu cầu phức tạp.
+3. Độ tin cậy và an toàn cao là yếu tố chủ đạo:
+   - Ví dụ: Phát triển phần mềm cho hệ thống y tế nơi mà độ tin cậy và an toàn dữ liệu là ưu tiên hàng đầu.
+4. Khách hàng không yêu cầu thay đổi thường xuyên:
+   - Ví dụ: Xây dựng một ứng dụng nội bộ cho một tổ chức, nơi mà người sử dụng cuối không có xu hướng thay đổi ý kiến và yêu cầu thường xuyên.
+5. Chi phí và thời gian có thể dự đoán tốt:
+   - Ví dụ: Dự án xây dựng một trang web thương mại điện tử đơn giản với các chức năng cơ bản và yêu cầu không thay đổi nhiều.
+6. Yêu cầu pháp lý và chuẩn mực nghiêm ngặt:
+   - Ví dụ: Phát triển một hệ thống để quản lý thông tin tài chính của một ngân hàng, nơi cần tuân thủ nghiêm ngặt các quy định pháp lý và chuẩn mực an toàn.
+II. Phương pháp Waterfall có những hạn chế và không phù hợp với mọi loại dự án do các đặc điểm sau:
+1. Yêu cầu thay đổi thường xuyên:
+   - Trong Waterfall, mọi yêu cầu phải được xác định và chốt từ đầu dự án. Nếu có sự thay đổi, quá trình phát triển sẽ gặp khó khăn vì không linh hoạt đối với sự thay đổi này.
+2. Khả năng tiếp cận khách hàng:
+   - Waterfall thường không thích hợp trong các dự án cần tương tác thường xuyên với khách hàng để nhận phản hồi. Mô hình này không cung cấp cơ hội để khách hàng kiểm tra và đánh giá sản phẩm trong quá trình phát triển.
+3. Rủi ro và không chắc chắn:
+   - Nếu có bất kỳ vấn đề nào xuất hiện giữa các giai đoạn, nó có thể ảnh hưởng đến toàn bộ dự án vì không có cơ hội để điều chỉnh kế hoạch theo thời gian.
+4. Chậm trễ trong việc phát triển sản phẩm có thể dẫn đến không hài lòng của khách hàng:
+   - Trong Waterfall, sản phẩm được giao sau khi đã hoàn thiện hoàn toàn. Nếu khách hàng có bất kỳ sự phản đối hay thay đổi ý kiến, việc sửa đổi có thể đòi hỏi nhiều công sức và tốn kém.
+5. Không phản ánh được sự phức tạp của dự án:
+   - Mô hình Waterfall không linh hoạt đối với sự phức tạp và thay đổi trong quá trình phát triển. Trong một số trường hợp, mô hình này có thể dẫn đến việc ước lượng không chính xác về chi phí và thời gian.
+6. Khó khăn trong việc kiểm soát và quản lý dự án lớn:
+   - Đối với các dự án lớn và phức tạp, việc kiểm soát và quản lý tất cả các yếu tố có thể trở nên rất khó khăn trong mô hình Waterfall.
