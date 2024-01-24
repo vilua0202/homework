@@ -1,0 +1,123 @@
+﻿
+I. VÒNG ĐỜI PHÁT TRIỂN PHẦN MỀM
+a) Requirement
+Participants: Người tham gia
+· Stakeholder: Người quan tâm đến sản phẩm.
+· Business Analyst (BA): Người phân tích nghiệp vụ.
+· Project Manager (PM): Người quan sát dự án từ đầu tới cuối, nhìn được bao quát và đưa ra dữ liệu cho quá trình phát triển trong vòng đời.
+Các biểu đồ:
+· Use case
+· Activity
+· Class
+· Sequence
+b) Analysis
+· BA
+· PM
+· System Analysis/ Architects: Lường trước các công nghệ sử dụng: Design patterns, database (DB) sử dụng, ngôn ngữ lập trình, Framework, Microservices hay không, Entity-Attribute-Value (EAV) hay cổ điển.
+· QA, Developer
+Các biểu đồ (ngôn ngữ UML - OOP):
+· Use case
+· Class
+· Sequence
+· Activity
+c) Design
+· UI/UX Designer: Thiết kế giao diện hệ thống.
+· SA (System Architect): Thiết kế kiến trúc hệ thống: Structure, tech stack, data flow, database design, tương tác với hệ thống khác.
+· High Level Design
+· PM
+· Developer: Frontend -> Source code
+· Engineer: Backend -> Source code
+· DevOps
+· FE: Sử dụng phân tích, thiết kế UI/UX
+· BE: Sử dụng phân tích, thiết kế hệ thống
+d) Implementation
+· FE: Code giao diện, code ghép API
+· BE: Code API, sử dụng Java, ...
+· AI: Code thuật toán AI, tích hợp vào hệ thống
+· Smartcontract: Sử dụng Solidity, C++, ...
+· DevOps: Cài đặt vào quy trình CI/CD, cài đặt môi trường.
+e) Testing
+· QA, Tester: Kiểm tra tính năng đã được code, kiểm tra lỗi và đảm bảo tuân theo requirement. Output: File Excel kết quả từng test case.
+f) Handover
+· Stakeholder
+· Training Staff
+· PM
+· QA: Lượt test cuối cùng trước khi bàn giao Output: Document Specialist: Hướng dẫn người dùng tài liệu hệ thống.
+g) Maintenance
+Nhiều người tham gia từ quá trình Requirement -> Analysis -> Design -> Implementation -> Testing -> Handover.
+II. WATERFALL
+a) Requirements
+· Làm rõ những gì chúng ta cần phải làm
+· Các yêu cầu chức năng
+· Các yêu cầu phi chức năng
+b) Design
+· Các tài liệu phân tích thiết kế.
+· Các biểu đồ UML, use case, class, dataflow.
+· Giao diện người dùng Figma.
+· Keywords: high-level design, high availability
+c) Development
+· Viết code.
+· Code frontend.
+· Code backend, APIs, job, thuật toán.
+d) Testing
+· Unit test.
+· Integration test.
+· System test.
+· Acceptance test.
+e) Deployment
+· Chạy chương trình trên server.
+· Hệ thống có thể truy cập qua internet.
+f) Maintenance
+· Sửa lỗi phát sinh ngay sau khi deploy hệ thống mà người dùng phát hiện ra.
+· Thường sẽ xuất hiện sớm sau khi deploy sản phẩm.
+III. AGILE
+1. Khái niệm Agile
+Agile là các triết lý tư duy thích ứng hoặc phản hồi nhanh với sự thay đổi, ra đời để giải quyết những vấn đề của Waterfall.
+2. Bốn tuyên ngôn của Agile:
+1. Sự ưu tiên của con người hơn quy trình và công cụ:
+o Agile đặt sự tập trung chủ yếu vào việc tạo điều kiện cho các cá nhân và tương tác giữa họ hơn là chỉ thị và quy trình.
+2. Sự làm việc phát triển phần mềm hữu ích hơn quá trình chi tiết:
+o Agile ưa thích việc tạo ra sản phẩm có giá trị thực sự cho khách hàng hơn là chỉ tuân theo các quy trình hay tài liệu chi tiết.
+3. Sự hợp tác với khách hàng hơn là thương lượng hợp đồng:
+o Agile đề xuất việc liên tục tương tác với khách hàng, hiểu rõ nhu cầu thay đổi và điều chỉnh kế hoạch phát triển dựa trên phản hồi đó.
+4. Sự đáp ứng linh hoạt hơn là theo kế hoạch:
+o Agile khuyến khích sự linh hoạt và thích ứng với thay đổi, ưu tiên việc cung cấp sản phẩm có giá trị ngay cả khi đòi hỏi điều chỉnh kế hoạch.
+3. 12 Nguyên tắc của Agile:
+1. Ưu tiên lợi ích của khách hàng:
+o Sự tập trung chủ yếu làm thế nào để cung cấp giá trị tối đa cho khách hàng.
+2. Chấp nhận thay đổi:
+o Agile chấp nhận rằng yêu cầu có thể thay đổi và chú trọng vào việc tạo ra phần mềm có thể thích ứng với những thay đổi này.
+3. Dựa trên cảm giác của cá nhân:
+o Tạo điều kiện để cá nhân có cơ hội để tự tổ chức và tự quản lý công việc của mình.
+4. Làm việc hiệu quả với khách hàng và người sử dụng cuối cùng:
+o Liên tục tương tác với khách hàng và người sử dụng để hiểu rõ họ và đảm bảo sản phẩm đáp ứng mong đợi của họ.
+5. Xây dựng sản phẩm có thể làm việc:
+o Chú trọng vào việc tạo ra sản phẩm có thể sử dụng và triển khai.
+6. Liên tục cung cấp giá trị:
+o Phát triển sản phẩm một cách liên tục và cung cấp giá trị cho khách hàng từng đợt.
+7. Tương tác nhóm hiệu quả:
+o Tạo điều kiện cho việc làm việc cộng tác và tương tác tích cực giữa các thành viên nhóm.
+8. Duy trì tốc độ ổn định và bền vững:
+o Đảm bảo rằng nhóm có thể duy trì tốc độ phát triển ổn định và bền vững qua thời gian.
+9. Sự chú trọng vào chất lượng:
+o Đặt sự chú trọng vào việc xây dựng sản phẩm chất lượng cao từ đầu, thay vì chỉ sửa lỗi sau đó.
+10. Đơn giản hóa mọi thứ:
+o Ưu tiên sự đơn giản, cố gắng giảm bớt sự phức tạp không cần thiết trong quá trình phát triển.
+11. Tự tổ chức nhóm:
+o Tạo điều kiện cho nhóm tự tổ chức và tự quản lý công việc của mình.
+12. Tổ chức đánh giá định kỳ:
+o Tổ chức các buổi đánh giá định kỳ để xem xét và điều chỉnh quá trình phát triển.
+4. Chiếc ô Agile
+· Scrum.
+· Extreme Programming (XP).
+· Kanban.
+· Scrumban.
+· Spotify (squad, trio, guild, alliance).
+· LSD (Large-Scale Scrum).
+Scrum và Spotify: Bao gồm 4 cuộc họp: planning, standup, review, retrospective.
+Khi sử dụng Agile có các công cụ:
+· Jira.
+· Trello.
+· GitHub.
+· Excel.
+
